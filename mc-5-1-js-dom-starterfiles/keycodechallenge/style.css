@@ -8,3 +8,9 @@ body{
     text-align: center
 }
 
+.event-boxes{
+    box-sizing: border-box;
+    height: 100px;
+    width:100px;
+    background-position: bottom;
+}
