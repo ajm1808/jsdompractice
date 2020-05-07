@@ -23,3 +23,17 @@ removeBtn.addEventListener('click', () => {
 })
 
 /*New code below*/
+
+document.addEventListener("click",(event)=>{
+    console.log(event);
+    console.log(event.target);
+})
+
+list.addEventListener("mouseover",()=>{
+    if(event.target.tagName=="LI"){event.target.textContent=event.target.textContent.toUpperCase();}
+})
+list.addEventListener("mouseout",()=>{
+    if(event.target.tagName=="LI"){event.target.textContent=event.target.textContent.toLowerCase();}
+})
+
+//have to add the if to the above - otherwise it removes the list functionality. It only applies changes to LI rather than Ul
