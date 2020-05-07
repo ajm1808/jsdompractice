@@ -1,4 +1,8 @@
 body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-image: linear-gradient(to right, purple, orange);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
@@ -13,4 +17,30 @@ body{
     height: 100px;
     width:100px;
     background-position: bottom;
+}
+
+ul {
+    height: 100px;
+    color: white;
+    
+    list-style-type:none;
+    
+}
+
+ul.li{
+    height:100px;
+    width: 100px;
+    color: black;
+    list-style: none;
+}
+
+p{
+    height: 40px;
+    width:  40px;
+    align-content: center;
+    
+}
+
+.key-description{
+    color: blanchedalmond;
 }
