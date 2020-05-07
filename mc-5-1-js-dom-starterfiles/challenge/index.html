@@ -6,9 +6,20 @@
     <title>Document</title>
 </head>
 <body id='body'>
-    <div><h1>Keycode Generator</h1>
+    <div class="wrap"><h1>Keycode Generator</h1>
         <input type = "text" onkeypress = "keycode()">
         <p id = "keycode">Keycode</p>
-        <script src = "app.js"></script><ul id="events"><li id="event-key">Event-key</li><li id="event-code">Event-code</li><li id="event-which">Event-which</li></ul></div>
+        <p class ="key-display"></p>
+        <p class = "hide-text"></p>
+    <div class = "event boxes">
+        <div class="event-key">     <div class="key header">event.key</div><div class = "key-description"></div></div>
+        
+        <div class="event-code"><div class="code header">event.code</div><div class = "code-description"></div></div></div>
+
+        <div class="event.which"><div class="which header">event.which</div><div class = "which-description"></div></div></div>
+    </div>
+    
+    
+    <script src = "app.js"></script> 
 </body>
 </html>

@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(to right, purple, orange);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.h1{
+    text-align: center
+}
+
