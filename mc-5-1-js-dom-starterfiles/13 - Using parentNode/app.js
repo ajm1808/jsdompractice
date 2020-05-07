@@ -16,3 +16,13 @@ button.addEventListener('click', () => {
 })
 
 /*New code below*/
+
+list.addEventListener("click",()=>{
+    if (event.target.tagName=="LI"){
+        let li=event.target;
+        let ul=li.parentNode;
+        ul.removeChild(li);
+    }
+})
+
+//this is asking the ul to find & remove a particular list item (li)
