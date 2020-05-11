@@ -10,8 +10,8 @@ body{
 }
 
 .wrap{
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center; 
+    justify-content: center;
     text-align: center;
     
 }
@@ -32,19 +32,17 @@ h1{
    
 }
 
-/* #keycode:hover{
-    transform: scale(1.1);
-    box-shadow: 0 4px 4px 4px  rgba(0, 0, 0, 0.384)
-} */
+
 .event-boxes{
-    display: flex;
-    flex-direction: row;
+    display: flex; 
+    flex-direction: row; 
     justify-content: space-around;
     height: 300px;
     width: 100%;
     margin: 0px;
     align-content: flex-end;
     text-align: center;
+    transition:0.07s;
     
 }
 
@@ -106,3 +104,22 @@ h1{
 
     border-radius: 0px 0    15px 15px;
 }
+
+
+.event-key:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(71, 61, 139, 0.432);
+    border-radius: 15px 15px 15px 15px;;
+} 
+
+.event-code:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(71, 61, 139, 0.432);
+        border-radius: 15px 15px    15px 15px;;
+    } 
+.event-which:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(71, 61, 139, 0.432);
+        border-radius: 15px 15px    15px 15px;;
+    } 
+   
