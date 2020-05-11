@@ -7,17 +7,7 @@ const input = document.getElementById("keycode");
 
 document.querySelector(".wrap").style.  visibility="hidden";
 
-// const wrap=document.getElementsByClassName("wrap");
 
-
-// document.addEventListener("keydown",(event)=>{
-//     if(InputEvent.style.display=="none"){
-//         wrap.style.display="block";
-//     }
-//     else {
-//         wrap.style.display="none";
-//     }
-// })
 
 document.addEventListener("keydown",(event) => {
     key1.textContent=event.key;
